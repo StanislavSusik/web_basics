@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Лабораторна робота №4</title>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1>Моя перша HTML-form</h1>
+
+    <form action="https://httpbin.org/get" method="get">
+
+
+      <label for="username">Ім’я:</label>
+      <input type="text" id="username" name="username" placeholder="Введіть ім’я"><br><br>
+
+      <label for="birthdate">Дата народження:</label>
+      <input type="date" id="birthdate" name="birthdate" ><br><br>
+
+      <label for="email">Електронна пошта</label>
+      <input type="email" id="email" name="email" placeholder="Введіть пошту пж"><br><br>
+
+      <label for="message">Повідомлення:</label>
+      <textarea name="message" id="message" placeholder="Введіть повідомлення "></textarea><br><br>
+
+      <button type="submit">Надіслати</button>
+      <button type="reset">Очистити</button>
+
+
+    </form>
+    <picture>
+         <source media="(max-width: 460px)" srcset="https://picsum.photos/300/500">
+         <source media="(min-width: 461px)" srcset="https://picsum.photos/1000/400">
+         <img src="https://picsum.photos/1000/400" alt="">
+    </picture><br><br>
+
+
+    <p>Ваші улюблені напої?</p>
+      <label><input type="checkbox" name="drinks" value="coffee"> Кава</label><br>
+      <label><input type="checkbox" name="drinks" value="tea"> Чай</label><br>
+      <label><input type="checkbox" name="drinks" value="juice"> Сік</label><br>
+      <label><input type="checkbox" name="drinks" value="water"> Вода</label><br>
+
+
+
+    <p>Моя національність</p> 
+      <label><input type="radio" name="nationality" value="ukrainian" required> Українець</label><br>
+      <label><input type="radio" name="nationality" value="polish"> Поляк</label><br>
+      <label><input type="radio" name="nationality" value="other"> Інше</label>
+
+  </body>
+</html>
+
+
+    
